@@ -1,0 +1,953 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('./_utilities.scss');
+*{
+  box-sizing: border-box;
+  font-family: Montserrat!important;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.navbar {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow: hidden;
+  background-color: #000 !important;
+  color: #fff !important;
+}
+.nav-logo{
+  height: auto;
+  width: 290px;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 15px;
+    font-weight: 700;
+
+}
+
+.navbar-toggler {
+  
+  background-color: #ffffff61 !important;}
+
+
+
+.nav-item{
+  margin: 10px !important;
+}
+
+.mint-container {
+  background-image: url('../img/hero-background.c21f0a0e37dbe06c3c3d.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 110%;
+}
+
+.hero-hero {
+  background-image: url('../img/hero-background.c21f0a0e37dbe06c3c3d\ \(1\).png');
+  background-repeat: no-repeat;
+  background-size: 100% calc(100% + 50px);
+  background-size: cover;
+  padding: 0
+}
+
+.hero-illustration {
+  width: calc(110% + 0px);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.hero-title {
+  width: 100%;
+  height: 141px;
+}
+.hero-desc {
+  margin-top: 24px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.mint-btn {
+  border-radius: 15px;
+  border: none;
+  background-color: black;
+  padding: 16px 18px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  width: 220px;
+}
+
+.mint-shield {
+  height: 100%;
+  width: 100%;
+}
+
+.mint-badge-shield-img {
+  max-height: 450px;
+  object-fit: contain;
+}
+
+.bold-white {
+  color: white;
+  font-weight: 900;
+  text-shadow: 1px 0 white;
+  letter-spacing: 1px;
+}
+
+.pad-right {
+  padding-right: 150px;
+}
+
+.mint-badge-paragraph-mobile {
+  width: 90%;
+  text-align: center;
+}
+
+.connect-btn {
+  border-radius: 15px;
+  border: none;
+  background-color: white;
+  padding: 16px 18px;
+  color: #8836f0;
+  font-size: 15px;
+  font-weight: 700;
+  width: 220px;
+}
+
+.mint-btn-disabled {
+  border-radius: 15px;
+  border: none;
+  
+  background-color: #000000;
+  padding: 16px 18px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  width: 220px;
+}
+
+.link,
+.link:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.error {
+  color: yellow !important;
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero-container {
+    background-image: url('../img/hero-background.c21f0a0e37dbe06c3c3d.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+  }
+  .hero-hero {
+    padding: 65px 0
+  }
+}
+
+
+@media screen and (max-width:486px){
+  .hero-container {
+    background-image: url('../img/hero-bg-mobile.e4970583934e6f6a79b6.png');
+    background-repeat: no-repeat;
+    background-size: 100% calc(100% + 50px);
+  }
+  
+}
+
+
+.hero-top-wrapper {
+  margin-top: 84px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.bold-15 {
+  font-family: 'Montserrat' !important;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+}
+
+.regular-15 {
+  font-family: 'Montserrat' !important;
+  font-weight: 500;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.yellow-half-bottom {
+  background: linear-gradient(180deg, transparent 55%, #eeb908 45%);
+  padding: 0 8px;
+}
+
+
+.akira-outlined-white {
+  letter-spacing: 5%;
+  color: transparent;
+  font-family: 'Akira' !important;
+  font-weight: '800';
+  font-size: 32px;
+  line-height: 36px;
+  -webkit-text-stroke-width: 1.4px;
+  -webkit-text-stroke-color: white;
+  text-align: center;
+}
+
+.akira-outlined-blue {
+  letter-spacing: 5%;
+  color: transparent;
+  font-family: 'Akira' !important;
+  font-weight: '800';
+  font-size: 32px;
+  line-height: 36px;
+  -webkit-text-stroke-width: 1.4px;
+  -webkit-text-stroke-color: #4e27af;
+  text-align: center;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.mint-title {
+  color: #a743f3;
+  font-family: 'Akira' !important;
+  font-weight: '800';
+  font-size: 20px;
+  text-align: center;
+}
+
+.hero-font-size {
+  width: 300px;
+  height: auto;
+}
+
+.mint-sub-title {
+  color: #4e27af;
+ 
+  font-family: 'Montserrat' !important;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.mint-title-content {
+  margin-bottom: 20px;
+}
+
+.join-our-guild-btn {
+  width: 190px;
+  height: 41px;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.hero-join-our-guild-btn {
+  border-radius: 15px;
+  border: none;
+  background-color: black;
+  padding: 16px 18px;
+  color: white;
+  width: 228px;
+  height: 50;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-content-wrapper {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .bold-15 {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: start;
+    font-family: 'Montserrat' !important;
+  }
+
+  .regular-15 {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: start;
+    font-family: 'Montserrat' !important;
+  }
+
+  .bold-16 {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: start;
+    font-family: 'Montserrat' !important;
+  }
+
+  .akira-outlined-white,
+  .akira-outlined-blue,
+  .akira-fill-white,
+  .akira-fill-blue {
+    font-size: 58px;
+    line-height: 66px;
+    text-align: start;
+  }
+
+  .text-content-wrapper {
+    width: 75%;
+  }
+  .akira-outlined-white {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+  }
+  .akira-outlined-blue {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4e27af;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .hero-font-size {
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
+
+@media only screen and (min-width: 426px) {
+  .hero-font-size {
+    font-size: 72px;
+    line-height: 76px;
+    width: auto;
+  }
+}
+
+
+
+.hero-illustration-wrapper {
+  padding: 0;
+}
+
+.hero-title {
+  width: 100%;
+  height: 141px;
+}
+.hero-desc {
+  margin-top: 24px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.hero-top-wrapper {
+  margin-top: 84px;
+}
+
+.text-content-wrapper {
+  text-align: justify;
+  width: 300px;
+}
+
+.hero-text-wrapper {
+  width: 100%;
+}
+
+@media only screen and (min-width: 426px) {
+  .text-content-wrapper {
+    margin-top: 16px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  
+
+  .hero-illustration-wrapper {
+    padding-bottom: 2rem;
+  }
+
+  .hero-text-wrapper {
+    width: 75%;
+  }
+}
+.yellow-half-bottom {
+  background: linear-gradient(180deg,transparent 55%,#eeb908 0);
+  padding: 0 8px;
+}
+button{
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+.akira-outlined-blue {
+  letter-spacing: 5%;
+  color: transparent;
+  font-family: 'Akira' !important;
+  font-weight: '800';
+  font-size: 32px;
+  line-height: 36px;
+  -webkit-text-stroke-width: 1.4px;
+  -webkit-text-stroke-color: #4e27af;
+  text-align: center;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.mint-title {
+  color: #a743f3;
+  font-family: 'Akira' !important;
+  font-weight: '800';
+  font-size: 20px;
+  text-align: center;
+}
+
+.hero-font-size {
+  width: 300px;
+  height: auto;
+}
+
+.mint-sub-title {
+  color: #4e27af;
+  
+  font-family: 'Montserrat' !important;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.mint-title-content {
+  margin-bottom: 20px;
+}
+
+.join-our-guild-btn {
+  width: 190px;
+  height: 41px;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.hero-join-our-guild-btn {
+  border-radius: 15px;
+  border: none;
+  background-color: black;
+  padding: 16px 18px;
+  color: white;
+  width: 228px;
+  height: 50;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-content-wrapper {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .bold-15 {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: start;
+    font-family: 'Montserrat' !important;
+  }
+
+  .regular-15 {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: start;
+    font-family: 'Montserrat' !important;
+  }
+
+  .bold-16 {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: start;
+    font-family: 'Montserrat' !important;
+  }
+
+  .akira-outlined-white,
+  .akira-outlined-blue,
+  .akira-fill-white,
+  .akira-fill-blue {
+    font-size: 58px;
+    line-height: 66px;
+    text-align: start;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .hero-font-size {
+      font-size: 72px;
+      line-height: 76px;
+  }
+}
+
+@media only screen and (min-width: 426px) {
+  .hero-font-size {
+      font-size: 72px;
+      line-height: 76px;
+      width: auto;
+  }
+}
+.border-gradient-image {
+  border-image: linear-gradient(90deg,#f980ff,#b348f7 44.81%,#8020f0 81.51%,#6c10ee 99.46%);
+  border-image-slice: 2;
+  border-style: solid;
+  border-width: 6px;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1024px){
+.akira-outlined-blue {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4e27af;
+}}
+
+
+@media only screen and (min-width: 1024px){
+.akira-fill-blue, .akira-fill-white, .akira-outlined-blue, .akira-outlined-white {
+    font-size: 58px;
+    line-height: 66px;
+    text-align: start;
+}}
+
+.akira-outlined-blue, .akira-outlined-white {
+  -webkit-text-stroke-width: 1.4px;
+  color: transparent;
+  font-family: Akira!important;
+ 
+  font-weight: 800;
+  letter-spacing: 5px;
+  line-height: 36px;
+}
+
+.akira-fill-blue {
+  color: #4e27af;
+}
+
+
+
+@media only screen and (min-width: 1024px){
+.akira-fill-blue, .akira-fill-white, .akira-outlined-blue, .akira-outlined-white {
+    font-size: 72px;
+    line-height: 66px;
+    text-align: start;
+}}
+
+
+
+@media only screen and (min-width: 1024px){
+.bold-15, .regular-15 {
+    font-family: Montserrat!important;
+    font-size: 16px;
+    text-align: start;
+    text-decoration: none;
+}}
+
+
+@media only screen and (min-width: 1024px){
+.bold-15, .regular-15 {
+    font-family: Montserrat!important;
+    font-size: 16px;
+    text-align: start;
+    text-decoration: none;
+    font-weight: 700;
+}}
+
+
+.nft-games-btn-wrapper {
+  justify-content: center;
+  padding: 0 15px;
+}
+
+
+.adventure-btn {
+  background: #f37bfe;
+  background: linear-gradient(90deg,#f37bfe,#6e11ee);
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 69%);
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  max-width: 200px;
+  padding: 8px;
+  width: 149px;
+  width: 100%;
+}
+
+.adventure-image-btn {
+  object-fit: contain;
+}
+
+.adventure-btn-wrapper {
+  height: 70px;
+  width: 149px;
+}
+
+@media only screen and (min-width: 1024px){
+.adventure-btn-wrapper {
+    height: 70px;
+    width: 147px;
+}}
+
+
+.nft-games-btn-wrapper {
+  justify-content: center;
+  padding: 0 15px;
+}
+
+
+@media only screen and (min-width: 1024px){
+.nft-games-btn-wrapper {
+    justify-content: start;
+    padding: 0;
+}}
+
+
+.image-section {
+  width: 100%;
+  height: auto;
+}
+
+.gameplay-image {
+  background-color: #6c10ee;
+}
+
+.border-gradient-image {
+ 
+  border-width: 6px;
+  border-style: solid;
+  border-image: linear-gradient(
+    90deg,
+    #f980ff 0%,
+    #b348f7 44.81%,
+    #8020f0 81.51%,
+    #6c10ee 99.46%
+  );
+  border-image-slice: 2;
+  padding: 0;
+}
+
+.adventure-btn {
+  background: rgb(243, 123, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 123, 254, 1) 0%,
+    rgba(110, 17, 238, 1) 100%
+  );
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.69);
+  cursor: pointer;
+  width: 149px;
+  max-width: 200px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.adventure-btn-wrapper {
+  height: 70px;
+  width: 149px;
+}
+
+.adventure-image-btn {
+  object-fit: contain;
+}
+
+.learn-about-ranker-btn {
+  border-radius: 10px;
+  border: none;
+  background-color: #000000;
+  padding: 12px 18px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.background-section {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  z-index: -1;
+}
+
+.our-friend-text {
+  width: 100%;
+  height: 40px;
+}
+
+.partnership-image {
+  max-width: 200px;
+  max-height: 90px;
+}
+.partnership-image-big {
+  max-width: 178px;
+  max-height: 83px;
+}
+
+.shield-container {
+  overflow: visible;
+}
+
+.shield-small {
+  display: inline-block;
+  position: absolute;
+  top: 68%;
+  width: 32%;
+  left: 26%;
+  transform: translate(10%, -50%);
+}
+
+.shield-text {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.shield-shadow {
+  display: inline-block;
+  position: absolute;
+  bottom: -30%;
+  width: 40%;
+  left: 16%;
+  transform: translate(10%, -50%);
+  z-index: 100000;
+}
+.img-badge {
+  height: 50%;
+  width: 50%;
+}
+
+.nft-games-btn-wrapper {
+  padding: 0 15px;
+  justify-content: center;
+}
+
+.btn-mint-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  max-width: 200px;
+  height: 65px;
+  background-color: #a743f3;
+ 
+}
+
+.huobi-btn-mint-link {
+  padding: 2.5px;
+}
+
+.mint-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.mint-link-image {
+  width: 125px;
+  height: 100%;
+  
+  object-fit: contain;
+}
+.mink-link-list-wrapper {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .background-section {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .nft-games-btn-wrapper {
+    padding: 0;
+    justify-content: start;
+  }
+
+  .mink-link-list-wrapper {
+    width: 420px;
+  }
+  .partner-desktop-last-row {
+    width: 75%;
+  }
+  .adventure-btn-wrapper {
+    height: 70px;
+    width: 147px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .partnership-image {
+    max-width: 150px;
+    max-height: 40px;
+  }
+  .partnership-image-big {
+    max-width: 150px;
+    max-height: 40px;
+  }
+}
+
+
+
+/*footer*/
+
+.footer-container {
+  background-color: #1f2326;
+}
+.footer-logo {
+  width: 71px;
+  height: 37px;
+}
+.footer-link {
+  font-weight: 700;
+  font-size: 7px;
+  text-decoration: none;
+  text-align: start;
+}
+
+@media only screen and (min-width: 1024px) {
+  .footer-logo {
+    width: 229px;
+    height: 120px;
+  }
+  .footer-link {
+    font-size: 15px;
+  }
+}
+
+
+@media only screen and (min-width: 1024px){
+.footer-logo {
+    height: 120px;
+    width: 229px;
+}}
+.footer-logo {
+    height: auto;
+    width: 47%;
+}
+
+
+
+@media only screen and (min-width: 1024px){
+.footer-link {
+    font-size: 15px ;
+}}
+
+
+@media only screen and (min-width: 486px){
+.footer-link {
+   
+    font-weight: 700;
+    text-align: start;
+    text-decoration: none;
+}}
+
